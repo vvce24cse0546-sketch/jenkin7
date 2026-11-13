@@ -11,7 +11,7 @@ pipeline{
         echo 'Checking Python application'
         bat 'python -m py_compile app.py'
       }
-      ]
+    }
       stage('Test') {
         steps {
           echo 'Executing automated tests'
